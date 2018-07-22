@@ -12,17 +12,17 @@ github_repo: "https://github.com/nsdingfantest/nsdingfantest.github.io.git" # yo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-DF-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-df-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+weibo_username:     NS_DF
+zhihu_username:     丁帆
+github_username:    NSDingFanTest
+# facebook_username:  baiying.qiu.7
+jianshu_username:   NSDingFan
 twitter_username:   qiubaiying
 
 
