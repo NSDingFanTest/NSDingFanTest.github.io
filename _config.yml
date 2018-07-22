@@ -11,7 +11,7 @@ github_repo: "https://github.com/nsdingfan/nsdingfan.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Stay Hungry. Stay Foolish"
 sidebar-avatar: /img/about-df-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -21,10 +21,9 @@ RSS: false
 weibo_username:     6590783493
 zhihu_username:     ding-fan-7-27
 github_username:    NSDingFanTest
-# facebook_username:  baiying.qiu.7
 jianshu_username:   272faf29687d
 #twitter_username:   qiubaiying
-
+# facebook_username:  baiying.qiu.7
 
 
 
@@ -61,7 +60,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: qiubaiying.github.io    #仓库名称
@@ -77,8 +76,8 @@ gitalk:
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-122648300-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -107,13 +106,5 @@ friends: [
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
-    }
-]
-
-# Test
-aTest: [
-    {
-        title: "T1",
-        href: "https://www.google.com/"
     }
 ]
