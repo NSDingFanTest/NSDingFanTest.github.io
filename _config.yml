@@ -1,9 +1,9 @@
 # Site settings
-title: NSDingFan Blog
+title: DF Blog
 SEOTitle: 丁帆的博客 | DF Blog
 header-img: img/post-bg-desk.jpg
 email: df_works@163.com
-description: "Every failure is leading towards success."
+description: "Think less & Do more"
 keyword: "DF, DF Blog, 丁帆的博客, dingfan, iOS, Apple, iPhone"
 url: "http://nsdingfantest.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -18,12 +18,12 @@ sidebar-avatar: /img/about-DF-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:     qiubaiying
 zhihu_username:     qiubaiying
 github_username:    qiubaiying
 facebook_username:  baiying.qiu.7
 jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+twitter_username:   qiubaiying
 
 
 
