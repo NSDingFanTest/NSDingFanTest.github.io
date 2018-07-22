@@ -113,7 +113,7 @@ friends: [
 # Test
 aTest: [
     {
-        title:"T1",
+        title: "T1",
         href: "https://www.google.com/"
     }
 ]
