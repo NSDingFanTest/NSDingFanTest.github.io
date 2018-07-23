@@ -95,7 +95,7 @@ service-worker: true
 
 # Friends
 friends: [
-     {
+    {
         title: "BY Blog",
         href: "http://qiubaiying.top/"
     },{
