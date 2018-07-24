@@ -68,7 +68,8 @@ gitalk:
   owner: nsdingfan    #github用户名
   admin: nsdingfan
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-  id: window.location.pathname
+#   id: window.location.
+  id: decodeURI(location.pathname)
 
 
 # 统计
