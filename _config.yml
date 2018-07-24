@@ -64,10 +64,11 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: c257b951cc89084f18eb                            #生成的clientID --> DF已更改
   clientSecret: 255732dda98bdc743be63e426e57471842b929b4    #生成的clientSecret --> DF已更改
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: nsdingfan.github.io    #仓库名称
+  owner: nsdingfan    #github用户名
+  admin: nsdingfan
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  id: about
 
 
 # 统计
