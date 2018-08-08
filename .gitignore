@@ -34,3 +34,9 @@ Temporary Items
 # debug file
 _site
 .history/
+
+# 一些修改掉的图片
+.img_changed
+
+# Mweb数据
+.MWebMetaData
