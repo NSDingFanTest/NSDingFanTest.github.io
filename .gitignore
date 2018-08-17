@@ -40,3 +40,6 @@ _site
 
 # Mweb数据
 .MWebMetaData
+
+# 草稿
+_drafts
