@@ -2,7 +2,7 @@
 layout:     post
 title:      Mac 上使用 Visual Studio Code 进行Python开发
 subtitle:   Python 安装&配置 - VSC 设置
-header-img: img/mclelun-evening-cloud.jpg
+header-img: img/post-bg-tamaki.jpg
 date:       2018-08-12
 author:     DF
 catalog:    true
