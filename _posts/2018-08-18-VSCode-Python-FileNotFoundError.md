@@ -49,8 +49,8 @@ VSCode 在 debug 时，使用的路径不是当前 Python 文件所在目录的�
 初步思路是通过在 VSCode 的 Setting 中或者 debug 的配置文件中进行配置，来解决这个问题。通过 Google 后，我在 StackOverflow 上找到了具体解决方案。
 
 参考链接：
-- [Stack Overflow - VSCode — how to set working directory for debug](https://stackoverflow.com/questions/43801142/vscode-working-directory-when-debugging-python)
-- [Stack Overflow - vscode working directory when debugging python](https://stackoverflow.com/questions/43801142/vscode-working-directory-when-debugging-python)
+- [Stack Overflow - VSCode — how to set working directory for debug](https://stackoverflow.com/questions/43801142/vscode-working-directory-when-debugging-python){:target="_blank"}
+- [Stack Overflow - vscode working directory when debugging python](https://stackoverflow.com/questions/43801142/vscode-working-directory-when-debugging-python){:target="_blank"}
 
 #### 解决方式
 
