@@ -32,7 +32,7 @@ debug 出现错误 ：
 FileNotFoundError: [Errno 2] No such file or directory: 'content.txt'
 ```
 
-![vscode_python_filenotefound_1-c650](/img/vscode_python_filenotefound_1.png)
+![vscode_python_filenotefound_1-c650](/img/vscode_python_filenotefound_1.png){:target="_blank"}
 
 
 
@@ -42,7 +42,7 @@ VSCode 在 debug 时，使用的路径不是当前 Python 文件所在目录的�
 
 为了验证这个想法，我给这个 txt 文件指定`一个绝对路径`或者`添加子目录的路径`时，程序可以正常读取。所以解决问题的关键，就是在 debug 时，让 debug 的路径指向当前程序所在的子目录。
 
-![vscode_python_filenotefound_2-c650](/img/vscode_python_filenotefound_2.png)
+![vscode_python_filenotefound_2-c650](/img/vscode_python_filenotefound_2.png){:target="_blank"}
 
 ## 解决方案
 
@@ -64,3 +64,6 @@ VSCode 在 debug 时，使用的路径不是当前 Python 文件所在目录的�
 
 ![vscode_python_filenotefound_4-c650](/img/vscode_python_filenotefound_4.png)
 
+## 补充
+
+在打开一个新的项目文件夹时, 就需要重新配置 launch.json 中的 cwd 参数。
