@@ -64,7 +64,7 @@ tags:
     $ brew doctor
     ```
     
-1. 安装Python3
+2. 安装Python3
 
     ```
      $ brew install python3
@@ -105,68 +105,66 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
 
 #### 3. 配置yapf
     
-1. [yapf](https://github.com/google/yapf){:target="_blank"}简介
-
-    yapf是一个源代码格式化工具，可以辅助我们进行代码的格式化，安装完成后，通过快捷键
-    `Shift + Alt + F`
+##### 1. yapf简介
+[yapf](https://github.com/google/yapf){:target="_blank"}是一个源代码格式化工具，可以辅助我们进行代码的格式化，安装完成后，通过快捷键 `Shift + Alt + F` 执行代码的格式化。
     
-1. 安装步骤
+#####2. 安装步骤
 
-    1. 打开命令行，输入 `pip install yapf`
+1. 打开命令行，输入 `pip install yapf`
 
-    2. 安装成功后， 打开VSCode用户设置（Code - 首选项 - 设置）
-        
-        ![Snip20180812_12-w400](/img/Snip20180812_12.png)
-        在`setting.json`文件中， 输入`"python.formatting.provider": "yapf",`
-        
-        ![Snip20180812_14-w400](/img/Snip20180812_14.png)
+2. 安装成功后， 打开VSCode用户设置（Code - 首选项 - 设置）
+    
+    ![Snip20180812_12-w400](/img/Snip20180812_12.png)
+    在`setting.json`文件中， 输入`"python.formatting.provider": "yapf",`
+    
+    ![Snip20180812_14-w400](/img/Snip20180812_14.png)
 
-    1. yapf使用技巧
-        1. 设置 代码段禁用自动格式化
-            通过 `# yapf: disable` 以及 `# yapf: enable`， 将不需要调整格式的代码段包括其中，即可在某些代码段禁用自动格式化。
-            ```
-            # yapf: disable
-            # 这里的代码不会被自动调整格式
-            # yapf: enable
-            ```
-            
-        1. 更多yafp用法参考
-            
-            在终端中输入：`$ yapf -h`，查看相关帮助。
+##### 3. yapf使用技巧
+1. 设置 代码段禁用自动格式化
+    通过 `# yapf: disable` 以及 `# yapf: enable`， 将不需要调整格式的代码段包括其中，即可在某些代码段禁用自动格式化。
+    ```
+    # yapf: disable
+    # 这里的代码不会被自动调整格式
+    # yapf: enable
+    ```
+    
+2. 更多yafp用法参考
+    
+    在终端中输入：`$ yapf -h`，查看相关帮助。
 
 #### 4. 配置flake8
 
-1. flake8 简介
+#####1. flake8 简介
     
-    [Flake8](https://pypi.org/project/flake8/){:target="_blank"}包装了下列工具：
-        
-    - PyFlakes：静态检查Python代码逻辑错误的工具。
-    - pep8： 静态检查PEP 8编码风格的工具。
-    - Ned Batchelder’s McCabe script：静态分析Python代码复杂度的工具。
-    通过flake8可以帮助我们避免以及查找错误，并规范格式。
+[Flake8](https://pypi.org/project/flake8/){:target="_blank"}包装了下列工具：
     
-1. 安装步骤：
-    1. 打开命令行，输入 `pip install flake8`
-    2. 打开VSCode用户设置（Code - 首选项 - 设置）
-        
-        ![Snip20180812_12-w400](/img/Snip20180812_12.png)
-        在`setting.json`文件中， 输入`"python.linting.flake8Enabled":true,`
-        
-        ![Snip20180812_13-w400](/img/Snip20180812_13.png)
-
-1. flake8 的一些配置：
-    如果我们的使用习惯和flake8的默认设定有冲突，可以对flake8进行配置。
-    在控制台中，输入 `flake8 --help`， 会显示flake8可以设置的参数。我们可以在VSCode的Setting中对flake8的这些参数进行设置。
-    在用户设置中添加 `"python.linting.flake8Args": [],` 这条设置，并在其中添加需要修改的条目即可。
+- PyFlakes：静态检查Python代码逻辑错误的工具。
+- pep8： 静态检查PEP 8编码风格的工具。
+- Ned Batchelder’s McCabe script：静态分析Python代码复杂度的工具。
+通过flake8可以帮助我们避免以及查找错误，并规范格式。
+    
+#####2. 安装步骤：
+1. 打开命令行，输入 `pip install flake8`
+2. 打开VSCode用户设置（Code - 首选项 - 设置）
+    
     ![Snip20180812_12-w400](/img/Snip20180812_12.png)
-    ![](/img/15349299826024.jpg)
+    在`setting.json`文件中， 输入`"python.linting.flake8Enabled":true,`
     
-    1. 调整flake8单行代码长度的检测：
-        
-        ```json
-        // 单行代码最大长度改为300
-        "python.linting.flake8Args": ["--max-line-length=300"]
-        ```
+    ![Snip20180812_13-w400](/img/Snip20180812_13.png)
+
+#####3. flake8 的一些配置：
+如果我们的使用习惯和flake8的默认设定有冲突，可以对flake8进行配置。
+在控制台中，输入 `flake8 --help`， 会显示flake8可以设置的参数。我们可以在VSCode的Setting中对flake8的这些参数进行设置。
+在用户设置中添加 `"python.linting.flake8Args": [],` 这条设置，并在其中添加需要修改的条目即可。
+![Snip20180812_12-w400](/img/Snip20180812_12.png)
+![](/img/15349299826024.jpg)
+    
+1. 调整flake8单行代码长度的检测：
+    
+    ```json
+    // 单行代码最大长度改为300
+    "python.linting.flake8Args": ["--max-line-length=300"]
+    ```
 
 ## VSCode 的其他设置
 
