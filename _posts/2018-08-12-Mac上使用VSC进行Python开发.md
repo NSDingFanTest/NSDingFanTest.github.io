@@ -134,6 +134,7 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
 
 #### 4. 配置flake8
 
+<<<<<<< HEAD
 #####1. flake8 简介
     
 [Flake8](https://pypi.org/project/flake8/){:target="_blank"}包装了下列工具：
@@ -165,6 +166,25 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
     // 单行代码最大长度改为300
     "python.linting.flake8Args": ["--max-line-length=300"]
     ```
+=======
+1. flake8 简介
+    
+    [Flake8](https://pypi.org/project/flake8/){:target="_blank"}包装了下列工具：
+        
+    - PyFlakes：静态检查Python代码逻辑错误的工具。
+    - pep8： 静态检查PEP 8编码风格的工具。
+    - Ned Batchelder’s McCabe script：静态分析Python代码复杂度的工具。
+    通过flake8可以帮助我们避免以及查找错误，并规范格式。
+    
+1. 安装步骤：
+    1. 打开命令行，输入 `pip install flake8`
+    2. 打开VSCode用户设置（Code - 首选项 - 设置）
+        
+        ![Snip20180812_12-w400](/img/Snip20180812_12.png)
+        在`setting.json`文件中， 输入`"python.linting.flake8Enabled":true,`
+        
+        ![Snip20180812_13-w400](/img/Snip20180812_13.png)
+>>>>>>> parent of 09d4082... update post
 
 ## VSCode 的其他设置
 
@@ -174,9 +194,3 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
     // 80，120 表示分别在80和120字符处显示一条辅助线，可以进行设置和调整。
     "editor.rulers": [80,120]
     ```
-    
-    
-## 参考
-- [post-image: pixiv-id-6675416](https://www.pixiv.net/member.php?id=6675416){:target="_blank"}
-- [vscode 编写python如何禁止 flake8 提示 line too long](https://www.cnblogs.com/tangxin-blog/p/6065017.html){:target="_blank"}
-- [《Python编程：从入门到实践》](https://book.douban.com/subject/26829016/){:target="_blank"}
