@@ -164,6 +164,7 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
         
         ```json
         // 单行代码最大长度改为300
+        
         "python.linting.flake8Args": ["--max-line-length=300"]
         ```
 
