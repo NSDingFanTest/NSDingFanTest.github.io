@@ -154,6 +154,20 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
         
         ![Snip20180812_13-w400](/img/Snip20180812_13.png)
 
+1. flake8 的一些配置：
+    如果我们的使用习惯和flake8的默认设定有冲突，可以对flake8进行配置。
+    在控制台中，输入 `flake8 --help`， 会显示flake8可以设置的参数。我们可以在VSCode的Setting中对flake8的这些参数进行设置。
+    在用户设置中添加 `"python.linting.flake8Args": [],` 这条设置，并在其中添加需要修改的条目即可。
+    ![Snip20180812_12-w400](/img/Snip20180812_12.png)
+    ![](/img/15349299826024.jpg)
+    
+    1. 调整flake8单行代码长度的检测：
+        
+        ```json
+        // 单行代码最大长度改为300
+        "python.linting.flake8Args": ["--max-line-length=300"]
+        ```
+
 ## VSCode 的其他设置
 
 1. 设置代码长度
@@ -162,3 +176,9 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
     // 80，120 表示分别在80和120字符处显示一条辅助线，可以进行设置和调整。
     "editor.rulers": [80,120]
     ```
+    
+    
+## 参考
+- [post-image: pixiv-id-6675416](https://www.pixiv.net/member.php?id=6675416){:target="_blank"}
+- [vscode 编写python如何禁止 flake8 提示 line too long](https://www.cnblogs.com/tangxin-blog/p/6065017.html){:target="_blank"}
+- [《Python编程：从入门到实践》](https://book.douban.com/subject/26829016/){:target="_blank"}
