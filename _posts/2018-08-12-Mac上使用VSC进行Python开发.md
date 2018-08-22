@@ -10,6 +10,8 @@ tags:
     - Python
     - VS Codo
     - 配置
+    - yapf
+    - flake8
 ---
 
 >在Visual Studio Code 的官方网站中，已经有在 VSCode 上使用 Python 的详细配置了， 
