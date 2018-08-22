@@ -142,7 +142,7 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
 - pep8： 静态检查PEP 8编码风格的工具。
 - Ned Batchelder’s McCabe script：静态分析Python代码复杂度的工具。
 通过flake8可以帮助我们避免以及查找错误，并规范格式。
-    
+
 #####2. 安装步骤：
 1. 打开命令行，输入 `pip install flake8`
 2. 打开VSCode用户设置（Code - 首选项 - 设置）
