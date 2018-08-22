@@ -158,8 +158,8 @@ Mac上自带的 Python 版本为 2.7.x，VSCode 的调试（Python:Terminal(inte
     在控制台中，输入 `flake8 --help`， 会显示flake8可以设置的参数。我们可以在VSCode的Setting中对flake8的这些参数进行设置。
     在用户设置中添加 `"python.linting.flake8Args": [],` 这条设置，并在其中添加需要修改的条目即可。
     ![Snip20180812_12-w400](/img/Snip20180812_12.png)
-    ![](/img/15349299826024.jpg)
-    
+    ![Snip20180822_5](/img/Snip20180822_5.png)
+
     1. 调整flake8单行代码长度的检测：
         
         ```
