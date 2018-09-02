@@ -97,7 +97,7 @@ class Solution1:
 
 只是写了一个列表解析[^jiexi]，一行完成。 实际性能不如方式一。
 
-[^jiexi]: [一篇关于python列表解析的帖子](http://codingpy.com/article/python-list-comprehensions-explained-visually/)
+[^jiexi]: [一篇关于python列表解析的帖子](http://codingpy.com/article/python-list-comprehensions-explained-visually/){:target="_blank"}
 
 ```python
 class Solution2:
