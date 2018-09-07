@@ -7,7 +7,7 @@ description: "Think less & Do more"
 keyword: "DF, DF Blog, 丁帆的博客, dingfan, iOS, Apple, iPhone"
 url: "https://nsdf.top"          # your host, for absolute URL
 baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/nsdingfan/nsdingfan.github.io.git" # you code repository
+github_repo: "https://github.com/nsdingfan/blog" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
