@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: df_works@163.com
 description: "Think less & Do more"
 keyword: "DF, DF Blog, 丁帆的博客, dingfan, iOS, Apple, iPhone"
-url: "https://nsdf.top"          # your host, for absolute URL
-baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/nsdingfan/blog" # you code repository
+url: "https://nsdingfantest.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://nsdingfantest/nsdingfantest.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
